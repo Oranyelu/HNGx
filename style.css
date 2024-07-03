@@ -36,12 +36,8 @@ header {
 }
 
 .profile img {
-    background-image: url(https://ca.slack-edge.com/T07466B189M-U07B3A5CEMN-f243ef0cf3dc-512);
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
-    background-size: contain;
 }
 
 .time-info {
