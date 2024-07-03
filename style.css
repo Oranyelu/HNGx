@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_1280.jpg);
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 25px;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    background-image: url(https://ca.slack-edge.com/T07466B189M-U07B3A5CEMN-f243ef0cf3dc-512);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-size: contain;
+}
+
+.time-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.links a {
+    display: block;
+    margin: 5px 0;
+    color: #a71818;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #a71818;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    body{
+        height: fit-content;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
